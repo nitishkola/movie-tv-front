@@ -1,17 +1,16 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
 
 nav {
+  background-color: #007bff;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-size: cover;
-  background-position: center;
-  height: 80px;
 }
 
 h1 {
@@ -37,17 +36,6 @@ h1 {
 }
 
 .container {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.hidden {
-  display: none;
-}
-
-#signup-form {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
