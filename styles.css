@@ -5,12 +5,35 @@ body {
   padding: 0;
 }
 
+nav {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.2em;
+}
+
 .navbar {
   list-style-type: none;
   margin: 0;
-  padding: 10px 20px;
-  background-color: #007bff; /* Set background color to blue */
-  text-align: right; /* Align navbar content to the right */
+  padding: 0;
 }
 
 .navbar li {
